@@ -60,6 +60,6 @@ aws s3 presign s3://<bucketname>/<objekt-key> --expires-in 259200 --endpoint-url
 
 Explanation:
 
-    --expires-in 259200: Sets the validity period to 3 days (3 days * 24 hours/day * 60 minutes/hour * 60 seconds/minute).
+--expires-in 259200: Sets the validity period to 3 days (3 days \* 24 hours/day \* 60 minutes/hour \* 60 seconds/minute).
 
 Default is 3600 seconds. Maximum is 604800 seconds.

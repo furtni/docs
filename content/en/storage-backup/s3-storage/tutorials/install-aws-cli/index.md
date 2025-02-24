@@ -63,7 +63,7 @@ Congratulations! You have successfully installed and configured the AWS CLI to c
 
 The AWS CLI uses "<http://s3.amazonaws.com>" as the default endpoint. You can change this by modifying the variable in the AWS CLI configuration file. Depending on the operating system, this file is located in a different location (e.g., Windows: %USERPROFILES%\.aws\config, as well as the credential file).
 
-**Example Configuration**
+#### Example Configuration
 
 File: config
 

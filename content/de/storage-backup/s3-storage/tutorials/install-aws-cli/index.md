@@ -65,7 +65,7 @@ Herzlichen Glückwunsch! Sie haben erfolgreich die AWS CLI installiert und konfi
 
 Die AWS CLI verwendet als Standard den Endpunkt "<http://s3.amazonaws.com>". Diesen können Sie ändern, indem Sie die Variable im Konfigurationsfile der AWS CLI anpassen. Je nach Betriebssystem befindet sich diese an einem anderen Ort (z.B. Windows: %USERPROFILES%\.aws\config sowie das credential File).
 
-**Beispielkonfiguration**
+#### Beispielkonfiguration
 
 Datei: config
 

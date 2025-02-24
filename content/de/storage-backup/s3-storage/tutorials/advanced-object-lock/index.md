@@ -6,7 +6,7 @@ weight: 60
 date: "2024-02-07"
 ---
 
-# Inhaltsverzeichnis
+## Inhaltsverzeichnis
 
 1. [Object-Lock mit Versioning und unterschiedlichen Retention-Richtlinien](#object-lock-mit-versioning-und-unterschiedlichen-retention-richtlinien)
 2. [Standardmäßig alle Objekte in einem Bucket mit einer Retention versehen](#standardmäßig-alle-objekte-in-einem-bucket-mit-einer-retention-versehen)

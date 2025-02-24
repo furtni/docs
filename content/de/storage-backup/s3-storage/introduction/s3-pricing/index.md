@@ -29,7 +29,7 @@ In dieser Serviceklasse gelten folgende Speicherrichtlinien:
 - Es wird eine minimale Abrechnungsgröße von 128 KB angewendet, was bedeutet, dass selbst kleinere Objekte mit dieser Größe in Rechnung gestellt werden.
 - Es wird eine minimale Abrechnungsgröße von 128 KB angewendet, was bedeutet, dass selbst kleinere Objekte mit dieser Größe in Rechnung gestellt werden.
 
-### S3 Serviceklasse "Mirror" (<bucketname>-mirr)
+### S3 Serviceklasse "Mirror" (\<bucketname>-mirr)
 
 Für diese Serviceklasse gelten die folgenden Richtlinien:
 
@@ -37,7 +37,7 @@ Für diese Serviceklasse gelten die folgenden Richtlinien:
 - Objekte kleiner als 1 MB werden mit Replikation gespeichert und ebenfalls gespiegelt.
 - Es wird eine minimale Abrechnungsgröße von 128 KB angewendet.
 
-### S3 Serviceklasse "Replication" (<bucketname>-repl)
+### S3 Serviceklasse "Replication" (\<bucketname>-repl)
 
 Für diese Serviceklasse gelten folgende Richtlinien:
 

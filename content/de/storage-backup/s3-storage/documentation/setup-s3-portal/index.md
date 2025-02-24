@@ -62,7 +62,7 @@ Die Beispiel-Policy für Ransomware-Abwehr kann als Startpunkt dienen. Denken Si
 7. Auf der nächsten Eingabe-Maske können Sie die Gruppe auswählen, die Sie zuvor erstellt haben.
 8. Durch die Zuweisung dieser Gruppe erhält der Benutzer automatisch die zuvor definierten Berechtigungen, die Sie für diese Gruppe festgelegt haben. Klicken Sie zum Abschließen auf "Create user".
 
-{{< img src="images/image-6.png" alt="AddAnotherUser" >}}
+    {{< img src="images/image-6.png" alt="AddAnotherUser" >}}
 
 ### Schritt 6: Anmeldung des Benutzers
 

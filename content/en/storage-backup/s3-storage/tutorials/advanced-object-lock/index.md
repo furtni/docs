@@ -6,7 +6,7 @@ weight: 60
 date: "2024-02-07"
 ---
 
-# Table of Contents
+## Table of Contents
 
 1. [Object Lock with Versioning and Different Retention Policies](#object-lock-with-versioning-and-different-retention-policies)
 2. [Automatically Apply Retention to All Objects in a Bucket](#automatically-apply-retention-to-all-objects-in-a-bucket)
@@ -123,7 +123,7 @@ aws s3api put-object-lock-configuration --bucket mylockedbucket --object-lock-co
 Executing this command sets a default Object Lock retention that will be applied to all newly uploaded objects in this bucket. Objects are automatically protected with the specified retention upon upload. In this example, objects would be protected with a Governance Object Lock for 1 day.
 
 {{% alert title="Info" %}}
-Please make sure to adjust the values for <bucket-name>, <days>, and <mode> according to your requirements. The default retention policy will be applied to all objects in the bucket that do not already have an individual retention.
+Please make sure to adjust the values for `<bucket-name>`, `<days>`, and `<mode>` according to your requirements. The default retention policy will be applied to all objects in the bucket that do not already have an individual retention.
 {{% /alert %}}
 
 ### Step 2: Retrieve the Bucket Rule for Object Lock Retention

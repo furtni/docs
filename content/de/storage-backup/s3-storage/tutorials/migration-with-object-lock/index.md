@@ -84,7 +84,7 @@ Durch die Ausführung dieses Befehls werden die Object-Lock-Informationen für d
 
 Laden Sie das Migrationsskript auf Ihr System herunter. Dieses Skript wird verwendet, um Daten von Ihrem Quellprofil und Quellbucket zu Ihrem Zielprofil und Zielbucket zu migrieren.
 
-**migration_skript.sh**
+#### migration_skript.sh
 
 ```bash
 

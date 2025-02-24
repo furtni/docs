@@ -29,9 +29,9 @@ Um Ihren Benutzern die angemessenen Berechtigungen zu erteilen, müssen Sie zun�
 - Wählen Sie dann "Neue Gruppe erstellen" (Create Group) aus.
 - In der Gruppenerstellungsoberfläche wählen Sie den Reiter "Föderierte Gruppe" (Federated Group) aus.
 - Vergeben Sie einen eindeutigen Namen (Unique Name) für die Gruppe. Dieser Name muss entsprechend der Identitätsquelle festgelegt werden. Verwenden Sie dabei bitte die folgenden Richtlinien:
-    - Active Directory: Verwenden Sie das Attribut "sAMAccountName".
-    - OpenLDAP: Verwenden Sie den "CN" (Common Name).
-    - Andere LDAP-Server: Ermitteln Sie den geeigneten Wert für den eindeutigen Namen, der dem verwendeten LDAP-Server entspricht.
+  - Active Directory: Verwenden Sie das Attribut "sAMAccountName".
+  - OpenLDAP: Verwenden Sie den "CN" (Common Name).
+  - Andere LDAP-Server: Ermitteln Sie den geeigneten Wert für den eindeutigen Namen, der dem verwendeten LDAP-Server entspricht.
 
 Indem Sie diese Schritte befolgen, legen Sie eine Identity Federation Gruppe fest, die von Ihrer Identity Federation abgeleitet ist. Diese Gruppe wird als zentraler Mechanismus dienen, um Benutzern die entsprechenden Zugriffsberechtigungen auf Ihre Ressourcen zuzuweisen.
 

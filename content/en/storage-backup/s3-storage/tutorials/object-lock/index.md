@@ -65,7 +65,7 @@ aws s3api put-object --bucket <bucketname> --key <destination-file-path> --body 
 - Replace \<endpoint-url>: Provide the corresponding endpoint for your plusserver S3.
 - Replace \<timestamp>: Specify the date and time until which the object should be locked in Governance mode. Format YYYY-MM-DDTHH:MM:SSZ (Y = year, M = month, D = day, H = hour, M = minute, S = second)
 
-**Example**
+### Example
 
 ```bash
 aws s3api put-object --bucket mylockedbucket --key folder/myobject.pdf --body /path/to/myobject.pdf --endpoint-url=https://s3.de-west-1.psmanaged.com --object-lock-mode GOVERNANCE --object-lock-retain-until-date "2023-08-11T14:35:59Z"

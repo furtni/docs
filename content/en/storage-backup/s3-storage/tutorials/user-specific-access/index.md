@@ -61,7 +61,7 @@ Policies are typically defined using .json objects. In this case, create a `user
 
 In this specific example, the policy would be as follows:
 
-**user-policy.json**
+#### user-policy.json
 
 ```json
 {

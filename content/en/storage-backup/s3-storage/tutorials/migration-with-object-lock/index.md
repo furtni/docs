@@ -82,7 +82,7 @@ By executing this command, the Object-Lock information for the specified object 
 
 Download the migration script to your system. This script is used to migrate data from your source profile and source bucket to your destination profile and destination bucket.
 
-**migration_script.sh**
+#### migration_script.sh
 
 ```bash
 #!/bin/bash

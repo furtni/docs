@@ -28,7 +28,7 @@ In this service class, the following storage policies apply:
 - For objects smaller than 1 MB, storage with replication is preferred over Erasure Coding.
 - A minimum billing size of 128 KB is applied, meaning even smaller objects will be invoiced at this size.
 
-### S3 Service Class "Mirror" (<bucketname>-mirr)
+### S3 Service Class "Mirror" (\<bucketname>-mirr)
 
 For this service class, the following guidelines apply:
 
@@ -36,7 +36,7 @@ For this service class, the following guidelines apply:
 - Objects smaller than 1 MB are stored with replication and also mirrored.
 - A minimum billing size of 128 KB is applied.
 
-### S3 Service Class "Replication" (<bucketname>-repl)
+### S3 Service Class "Replication" (\<bucketname>-repl)
 
 For this service class, the following guidelines apply:
 
